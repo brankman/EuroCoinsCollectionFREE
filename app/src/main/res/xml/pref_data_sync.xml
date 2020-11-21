@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="pref_category_1"
+        android:title="@string/settings_section_backup_data">
+
+        <Preference
+            android:icon="@drawable/icon_import"
+            android:title="@string/settings_title_csv_import_normal"
+            android:key="pref_key_csv_import_normal" />
+
+        <Preference
+            android:icon="@drawable/icon_export"
+            android:title="@string/settings_title_csv_export_normal"
+            android:key="pref_key_csv_export_normal" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_category_2"
+        android:title="@string/settings_section_data_settings">
+
+        <Preference
+            android:icon="@drawable/icon_reset_default"
+            android:title="@string/settings_title_reset_to_default"
+            android:key="pref_key_reset_data" />
+
+        <Preference
+            android:icon="@drawable/icon_clear_data"
+            android:title="@string/settings_title_clear_data"
+            android:key="pref_key_clear_data" />
+    </PreferenceCategory>
+</PreferenceScreen>

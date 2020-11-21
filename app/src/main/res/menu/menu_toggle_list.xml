@@ -1,0 +1,29 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="moedas.euro.CommemorativeYearsActivity">
+
+    <item
+        android:title="@string/sort"
+        app:showAsAction="always"
+        android:icon="@drawable/menu_sort_icon"
+        android:enabled="true"
+        android:visible="true"
+        android:id="@+id/menu">
+        <menu>
+            <item android:id="@+id/menu_sortPerYear"
+                android:title="@string/sortPerYear"
+                android:visible="true"
+                app:showAsAction="always"
+                android:enabled="true" />
+            <item android:id="@+id/menu_sortPerCountry"
+                android:title="@string/sortPerCountry"
+                android:visible="true"
+                app:showAsAction="always"
+                android:enabled="true" />
+        </menu>
+    </item>
+
+
+</menu>

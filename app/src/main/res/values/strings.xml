@@ -1,0 +1,325 @@
+<resources>
+    <!-- ENG -->
+    <!-- String base para combater warnings -->
+    <string name="base">&quot;BaseText&quot;</string>
+
+    <!-- String com o ID da publicidade para esta app -->
+    <string name="banner_ad_unit_id">ca-app-pub-8704839960176235/8681406908</string>
+
+    <!-- Start Screen -->
+
+    <!-- Main Activity -->
+    <string name="apk_name">Euro Coins Collection</string>
+    <string name="app_name">Euro Coins Collection</string>
+    <string name="bt_euro_coins_main">Euro Coins</string>
+    <string name="bt_euro_coins_commemorative_main">Commemorative Euro Coins</string>
+
+    <!-- Countries Activity -->
+    <string name="title_countries">Countries</string>
+
+    <!-- Coins Country Activity -->
+    <string name="bt_save_data">Save</string>
+    <string name="toast_data_stored">Collection updated.</string>
+    <string name="bt_select_all">Select All</string>
+
+    <!-- Years Activity -->
+    <string name="subtitleList">Completed</string>
+    <string name="sort">Sort...</string>
+    <string name="sortPerYear">By Year</string>
+    <string name="sortPerCountry">By Country</string>
+
+    <!-- Coins Commemorative Activity -->
+    <string name="title_commemoratives">Commemorative</string>
+
+    <!-- Settings Activity -->
+    <string name="title_settings">Preferences</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="toast_collection_imported">Collection successfully imported.</string>
+    <string name="toast_collection_exported">Collection successfully exported.</string>
+    <string name="toast_clear_data">Data successfully deleted.</string>
+    <string name="toast_reset_default_data">Default data restored.</string>
+
+    <string name="csv_file_countrie">Country</string>
+    <string name="csv_file_year">Year</string>
+    <string name="csv_file_value">Value</string>
+    <string name="csv_file_state">State</string>
+    <string name="csv_file_description">Description</string>
+
+    <string name="settings_section_backup_data">Data Backup</string>
+    <string name="settings_section_data_settings">Data Settings</string>
+    <string name="settings_section_general">General</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_title_csv_export_normal">Export collection</string>
+    <string name="settings_title_csv_import_normal">Import collection</string>
+    <string name="settings_title_clear_data">Clear data</string>
+    <string name="settings_title_reset_to_default">Reset default data</string>
+    <string name="settings_title_about">About</string>
+    <string name="settings_summary_version">version 2.3</string>
+    <string name="settings_title_rate_it">Rate it on Play Store</string>
+
+    <string name="dialog_loading_data_backup">Loading data from backup...</string>
+    <string name="dialog_loading_reset_data">Resetting default data...</string>
+
+    <!-- About Activity -->
+    <string name="dialog_about_title">About</string>
+    <string name="dialog_about_message">\t\tThis application was developed for all euro coins collectors. For those who wish to have at hand a means of identifying coins or even update the state of the collection.\n\n <b>- Programmer:</b> Rui Branco\n\n <b>- Images and Videos:</b> Iúri Silvestre\n</string>
+    <string name="title_rate_it">RATE ON PLAY STORE</string>
+    <string name="title_goPro">CHECKOUT PRO VERSION</string>
+    <string name="bt_pro_version">Euro Coins Collection Pro</string>
+
+    <!-- Menus -->
+    <string name="menu_settings">Preferences</string>
+    <string name="title_menu_settings">Preferences</string>
+    <string name="title_menu_statistics">Statistics</string>
+
+    <!-- Stats Tabs -->
+    <string name="title_stats_tab1">Countries</string>
+    <string name="title_stats_tab2">Commemoratives</string>
+
+    <!-- Database -->
+    <string name="DEU">Germany</string>
+    <string name="AUT">Austria</string>
+    <string name="BEL">Belgium</string>
+    <string name="CYP">Cyprus</string>
+    <string name="SVK">Slovakia</string>
+    <string name="SVN">Slovenia</string>
+    <string name="ESP">Spain</string>
+    <string name="EST">Estonia</string>
+    <string name="FIN">Finland</string>
+    <string name="FRA">France</string>
+    <string name="GRC">Greece</string>
+    <string name="IRL">Ireland</string>
+    <string name="ITA">Italy</string>
+    <string name="LUX">Luxembourg</string>
+    <string name="MLT">Malta</string>
+    <string name="MCO">Monaco</string>
+    <string name="NLD">Netherlands</string>
+    <string name="PRT">Portugal</string>
+    <string name="SMR">San Marino</string>
+    <string name="VAT">Vatican</string>
+    <string name="LAT">Latvia</string>
+    <string name="LTU">Lithuania</string>
+    <string name="AND">Andorra</string>
+    <string name="PAE">Euro Area Countries</string>
+
+    <!-- Commemoratives 2004 -->
+    <string name="description_2004_FIN">EU enlargement to ten new Member States</string>
+    <string name="description_2004_GRC">Olympic Games Athens 2004</string>
+    <string name="description_2004_ITA">Fifth decade of the world food programme</string>
+    <string name="description_2004_LUX">Effigy and monogram of Grand Duke Henri</string>
+    <string name="description_2004_SMR">Bartolomeo Borghesi (historian and numismatist)</string>
+    <string name="description_2004_VAT">75th Anniversary of the founding of the State of Vatican City</string>
+
+    <!-- Commemoratives 2005 -->
+    <string name="description_2005_AUT">50th anniversary of the Austrian State Treaty</string>
+    <string name="description_2005_BEL">Belgo-Luxembourg Economic Union</string>
+    <string name="description_2005_ESP">Fourth centenary of the first edition of "Don Quixote" (El Ingenioso Hidalgo Don Quijote de la Mancha) by Miguel de Cervantes</string>
+    <string name="description_2005_FIN">60th anniversary of the creation of the United Nations and 50th anniversary of the accession of Finland to the ONU</string>
+    <string name="description_2005_ITA">First anniversary of the signing of the European Constitution</string>
+    <string name="description_2005_LUX">50th Anniversary of Grand Duke Henri, 5th Anniversary of his ascension to the throne and the centenary of the death of Grand Duke Adolphe</string>
+    <string name="description_2005_SMR">International Year of Physics 2005</string>
+    <string name="description_2005_VAT">20th World Youth Journey held in Cologne in August 2005</string>
+
+    <!-- Commemoratives 2006 -->
+    <string name="description_2006_DEU">Schleswig-Holstein</string>
+    <string name="description_2006_BEL">Atomium</string>
+    <string name="description_2006_FIN">100th Anniversary of universal suffrage</string>
+    <string name="description_2006_ITA">XX Olympic Winter Games - Turin 2006</string>
+    <string name="description_2006_LUX">25th birthday of the heir to the throne, Grand Duke Guillaume</string>
+    <string name="description_2006_SMR">500th anniversary of the death of Cristóvão Colombo</string>
+    <string name="description_2006_VAT">5th centenary of the Pontifical Swiss Guard</string>
+
+    <!-- Commemoratives 2007 -->
+    <string name="description_2007_DEU">Mecklenburg-Vorpommern</string>
+    <string name="description_2007_FIN">90th anniversary of Finland\'s independence</string>
+    <string name="description_2007_LUX">Grand Ducal Palace</string>
+    <string name="description_2007_MCO">25th anniversary of the death of Princess Grace</string>
+    <string name="description_2007_PAE">50th anniversary of the Treaty of Rome - [NOTE: the graphics of this coin is repeated for each country in the euro currency, changing only the name of the country]</string>
+    <string name="description_2007_PRT">Portuguese presidency of the European Union</string>
+    <string name="description_2007_SMR">Bicentenary of the birth of Giuseppe Garibaldi</string>
+    <string name="description_2007_VAT">80th Birthday of His Holiness Pope Benedict XVI</string>
+
+    <!-- Commemoratives 2008 -->
+    <string name="description_2008_DEU">Federal State of Hamburg</string>
+    <string name="description_2008_BEL">60th anniversary of the Universal Declaration of Human Rights</string>
+    <string name="description_2008_SVN">500th anniversary of the birth of Primož Trubar</string>
+    <string name="description_2008_FIN">60th anniversary of the Universal Declaration of Human Rights</string>
+    <string name="description_2008_FRA">French Presidency of the EU Council in the second half of 2008</string>
+    <string name="description_2008_ITA">60th anniversary of the Universal Declaration of Human Rights</string>
+    <string name="description_2008_LUX">Grand Duke Henri and the "Château de Berg"</string>
+    <string name="description_2008_PRT">60th anniversary of the Universal Declaration of Human Rights</string>
+    <string name="description_2008_SMR">European Year of Intercultural Dialogue</string>
+    <string name="description_2008_VAT">Year dedicated to Saint Paul on the occasion of the two thousandth anniversary of his birth</string>
+
+    <!-- Commemoratives 2009 -->
+    <string name="description_2009_DEU">Federal State of Saarland</string>
+    <string name="description_2009_BEL">200th anniversary of the birth of Louis Braille</string>
+    <string name="description_2009_SVK">20th Birthday of November 17, 1989 (Day of Struggle for Freedom and Democracy)</string>
+    <string name="description_2009_FIN">200th anniversary of Finnish autonomy and the Diet of Porvoo</string>
+    <string name="description_2009_ITA">200th anniversary of the birth of Louis Braille</string>
+    <string name="description_2009_LUX">The Grand Duke Henri and Grand Duchess Charlotte</string>
+    <string name="description_2009_PAE">10th anniversary of Economic and Monetary Union - [NOTE: the graphics of this coin is repeated for each country in the euro currency, changing only the name of the country]</string>
+    <string name="description_2009_PRT">2nd Lusophone Games</string>
+    <string name="description_2009_SMR">European Year of Creativity and Innovation</string>
+    <string name="description_2009_VAT">International Year of Astronomy</string>
+
+    <!-- Commemoratives 2010 -->
+    <string name="description_2010_DEU">Federal State of Bremen</string>
+    <string name="description_2010_BEL">Belgian Presidency of the European Union in 2010</string>
+    <string name="description_2010_SVN">200th anniversary of the Botanical Garden of Ljubljana</string>
+    <string name="description_2010_ESP">Historic center of Cordoba - series dedicated to the UNESCO World Heritage</string>
+    <string name="description_2010_FIN">Decree of 1860 which gave Finland the right to issue banknotes and coins</string>
+    <string name="description_2010_FRA">70th anniversary of the Appeal of 18 June</string>
+    <string name="description_2010_GRC">2500th anniversary of the Battle of Marathon</string>
+    <string name="description_2010_ITA">200th anniversary of the birth of the Count of Cavour</string>
+    <string name="description_2010_LUX">Coat of Grand Duke</string>
+    <string name="description_2010_PRT">100th anniversary of the Portuguese Republic</string>
+    <string name="description_2010_SMR">500th anniversary of the death of Sandro Botticelli</string>
+    <string name="description_2010_VAT">Year for Priests</string>
+
+    <!-- Commemoratives 2011 -->
+    <string name="description_2011_DEU">Federal State of North Rhine-Westphalia</string>
+    <string name="description_2011_BEL">100th anniversary of International Women\'s Day</string>
+    <string name="description_2011_SVK">20th anniversary of the creation of the Visegrád Group</string>
+    <string name="description_2011_SVN">100th anniversary of the birth of Franc Rozman-Stane</string>
+    <string name="description_2011_ESP">Patio of the Lions - Granada series devoted to the UNESCO World Heritage</string>
+    <string name="description_2011_FIN">200th anniversary of Suomen Pankki - Finlands Bank</string>
+    <string name="description_2011_FRA">30th anniversary of the Festival of Music</string>
+    <string name="description_2011_GRC">Special Olympics World Summer Games - Athens 2011</string>
+    <string name="description_2011_ITA">150th anniversary of the unification of Italy</string>
+    <string name="description_2011_LUX">50th anniversary of the appointment by the Grand Duchess Charlotte of her son Jean as lieutenant-représentant</string>
+    <string name="description_2011_MLT">Constitutional history - first election of representatives in 1849</string>
+    <string name="description_2011_MCO">Marriage of Prince Albert and Charlene</string>
+    <string name="description_2011_NLD">500th anniversary of the publication of the book known worldwide, Laus Stultitiae, philosopher, Dutch humanist and theologian Desiderius Erasmus</string>
+    <string name="description_2011_PRT">500th anniversary of the birth of Fernão Mendes Pinto</string>
+    <string name="description_2011_SMR">500th anniversary of the birth of Giorgio Vasari</string>
+    <string name="description_2011_VAT">26th World Youth Journey</string>
+
+    <!-- Commemoratives 2012 -->
+    <string name="description_2012_DEU">Neuschwanstein</string>
+    <string name="description_2012_BEL">75th anniversary of the Queen Elisabeth Competition</string>
+    <string name="description_2012_ESP">Burgos Cathedral - series dedicated to the UNESCO World Heritage</string>
+    <string name="description_2012_LUX1">7th  World Meeting of Families</string>
+    <string name="description_2012_PAE">Ten years of euro - [NOTE: the graphics of this coin is repeated for each country in the euro currency, changing only the name of the country]</string>
+    <string name="description_2012_PRT">Guimarães - European Capital of Culture 2012</string>
+    <string name="description_2012_VAT">VII World Meeting of Families</string>
+    <string name="description_2012_FIN">150th Anniversary of the Birth of Helene Schjerfbeck</string>
+    <string name="description_2012_FRA">100th Anniversary of Abbé Pierre’s birth</string>
+    <string name="description_2012_ITA">100th Anniversary of the Death of Giovanni Pascoli</string>
+    <string name="description_2012_LUX2">100th Anniversary of the death of the William IV</string>
+    <string name="description_2012_MLT">1887 Majority Representation</string>
+    <string name="description_2012_MCO">The 500th anniversary of the foundation of Monaco\'s Sovereignt</string>
+    <string name="description_2012_SMR">Ten years of euro</string>
+
+    <!-- Commemoratives 2013 -->
+    <string name="description_2013_DEU1">Baden-Württemberg: Kloster Maulbronn</string>
+    <string name="description_2013_DEU2">50 Years of the Élysée Treaty</string>
+    <string name="description_2013_SVK">Príchod byzantskej misie sv. Cyrila a sv. Metoda na Veľkú Moravu - 1150. výročie</string>
+    <string name="description_2013_MLT">1921 Self Government</string>
+    <string name="description_2013_SVN">800th Anniversary of the First Visit of the Postojna Cave</string>
+    <string name="description_2013_ESP">The Royal Seat of San Lorenzo de El Escorial</string>
+    <string name="description_2013_FRA1">150th Anniversary of Pierre de Coubertin`s Birth</string>
+    <string name="description_2013_FRA2">50 Years of the Élysée Treaty</string>
+    <string name="description_2013_ITA1">700th Anniversary of the Birth of Giovanni Boccaccio</string>
+    <string name="description_2013_ITA2">200th Anniversary of the Birth of Giuseppe Verdi</string>
+    <string name="description_2013_VAT1">World Youth Day 2013 - Rio</string>
+    <string name="description_2013_VAT2">Sede Vacante MMXIII</string>
+    <string name="description_2013_NLD1">The Double Portrait</string>
+    <string name="description_2013_PRT">250 Years of the Torre dos Clérigos</string>
+    <string name="description_2013_MCO">20 years membership of the United Nations</string>
+    <string name="description_2013_BEL">100 years of the Royal Meteorological Institute</string>
+    <string name="description_2013_FIN1">150th Anniversary of Parliament of 1863</string>
+    <string name="description_2013_FIN2">125th Anniversary of the birth of Nobel prize winning author F.E.Sillanpaa</string>
+    <string name="description_2013_GRC1">100th Anniversary of the union of Crete with Greece</string>
+    <string name="description_2013_GRC2">The 2400th Anniversary of the founding of Plato’s Academy</string>
+    <string name="description_2013_LUX">The National Anthem</string>
+    <string name="description_2013_NLD2">200 Years of Kingdom</string>
+    <string name="description_2013_SMR">The 500th Anniversary of the Death of Malers Pinturicchio</string>
+
+    <!-- Commemoratives 2014 -->
+    <string name="description_2014_DEU">Niedersachsen: St. Michael zu Hildesheim</string>
+    <string name="description_2014_MLT1">50 Years of Independence</string>
+    <string name="description_2014_BEL1">100 Years After the Beginning of the First World War</string>
+    <string name="description_2014_BEL2">150 Years of Red Cross in Belgium</string>
+    <string name="description_2014_SVK">10 Years of Slovakian Membership in European Union</string>
+    <string name="description_2014_SVN">600th Anniversary of the Coronation of Barbara of Cilli</string>
+    <string name="description_2014_ESP1">Works of Antoni Gaudí</string>
+    <string name="description_2014_ESP2">Juan Carlos / Felipe VI </string>
+    <string name="description_2014_FIN1">100th Anniversary of the Birth of Tove Jansson</string>
+    <string name="description_2014_FIN2">Ilmari Tapiovaara and the Art of Interior Design</string>
+    <string name="description_2014_FRA1">70th Anniversary of the D-Day</string>
+    <string name="description_2014_FRA2">World AIDS Day 2014</string>
+    <string name="description_2014_GRC1">400 years since the Death of Domenikos Theotokopoulos</string>
+    <string name="description_2014_GRC2">150th Anniversary of the Union of the Ionian Islands with Greece</string>
+    <string name="description_2014_ITA1">450th Anniversary of the birth of Galileo Galilei</string>
+    <string name="description_2014_ITA2">200th Anniversary of the Carabinieri</string>
+    <string name="description_2014_LUX2">50th Anniversary of the Accession to the Throne of Grand Duke Jean</string>
+    <string name="description_2014_LAT">Riga</string>
+    <string name="description_2014_LUX1">175 Years of Independence of Luxembourg</string>
+    <string name="description_2014_MLT2">200 Years Malta Police Force</string>
+    <string name="description_2014_NLD">The Double Portrait 2014</string>
+    <string name="description_2014_PRT1">40th Anniversary of the Carnation Revolution</string>
+    <string name="description_2014_PRT2">International Year of Family Farming</string>
+    <string name="description_2014_SMR1">500th Anniversary of the death of Bramante Lazzari delle Penne di San Marino</string>
+    <string name="description_2014_SMR2">90th Anniversary of the Death of Giacomo Puccini</string>
+    <string name="description_2014_VAT">25 Years since the Fall of the Berlin Wall</string>
+
+    <!-- Commemoratives 2015 -->
+    <string name="description_2015_DEU1">Hessen: Frankfurter Paulskirche</string>
+    <string name="description_2015_MLT1">Republic 1974</string>
+    <string name="description_2015_DEU2">25 Jahre Deutsche Einheit</string>
+    <string name="description_2015_BEL">The European Year for Development</string>
+    <string name="description_2015_SVK">200th Anniversary of the Birth of Ľudovít Štúr</string>
+    <string name="description_2015_SVN">2000th Anniversary of the Founding of Emona</string>
+    <string name="description_2015_ESP">Cave of Altamira</string>
+    <string name="description_2015_FIN1">150th Anniversary of the Birth of Akseli Gallen-Kallela</string>
+    <string name="description_2015_FIN2">Jean Sibelius </string>
+    <string name="description_2015_FRA1">70 Years of United Nation</string>
+    <string name="description_2015_FRA2">225th Anniversary of the Fête de la Fédération</string>
+    <string name="description_2015_GRC">75th Anniversary of the Death of Spyridon Louis</string>
+    <string name="description_2015_ITA1">EXPO Milan 2015</string>
+    <string name="description_2015_ITA2">750th Anniversary of the Birth of Dante Alighieri</string>
+    <string name="description_2015_LAT1">Presidency of the Council of the European Union</string>
+    <string name="description_2015_LAT2">Stork </string>
+    <string name="description_2015_LUX1">15th anniversary of the accession to the throne of H.R.H. the Grand Duke</string>
+    <string name="description_2015_MLT2">100th Anniversary of the First Flight of Malta</string>
+    <string name="description_2015_PAE">30 Years of the EU Flag</string>
+    <string name="description_2015_PRT1">500 Years of Portugiesisch-Timor</string>
+    <string name="description_2015_PRT2">150 Years of Red Cross in Portugal</string>
+    <string name="description_2015_SMR1">750th Anniversary of the Birth of Dante Alighier</string>
+    <string name="description_2015_SMR2">25th anniversary of German reunification</string>
+    <string name="description_2015_VAT">World Meeting Of Families 2015</string>
+    <string name="description_2015_LUX2">125th anniversary of the House of Nassau-Weilburg</string>
+    <string name="description_2015_MCO">800th Anniversary of the Construction of the first Fortress on the Rock 1215</string>
+    <string name="description_2015_LTU">Lithuanian language</string>
+
+    <!-- Commemoratives 2016 -->
+    <string name="description_2016_DEU">Sachsen: Dresdner Zwinger</string>
+    <string name="description_2016_AUT">200 Years of the Österreichische Nationalbank</string>
+    <string name="description_2016_SVN">25th Anniversary of the Independence of the Republic of Slovenia</string>
+    <string name="description_2016_ESP">Old Town of Segovia and its Aqueduct</string>
+    <string name="description_2016_BEL1">Child Focus</string>
+    <string name="description_2016_BEL2">Olympic Games - Rio 2016</string>
+    <string name="description_2016_SVK">First Presidency of the Slovak Republic of the Council of the European Union</string>
+    <string name="description_2016_EST">100th Anniversary of the Birth of Paul Keres</string>
+    <string name="description_2016_IRL">The Centenary of the 1916 Easter Rising</string>
+    <string name="description_2016_ITA1">500th Anniversary of the Death of Donatello</string>
+    <string name="description_2016_ITA2">2200th Anniversary of the Death of Tito Maccio Plauto</string>
+    <string name="description_2016_LAT">Vidzeme</string>
+    <string name="description_2016_LTU">The Baltic Culture</string>
+    <string name="description_2016_LUX">50th Anniversary Of The Inauguration Of The Bridge Grand Duchess Charlotte</string>
+    <string name="description_2016_PRT">Olympic Games - Rio 2016</string>
+    <string name="description_2016_SMR1">400th Anniversary of the Death of William Shakespeare</string>
+    <string name="description_2016_SMR2">500th Anniversary of the Death of Donatello</string>
+    <string name="description_2016_VAT">Bicentenary of the Gendarmerie Corps of Vatican City Stat</string>
+
+    <!-- Commemoratives 2017 -->
+    <string name="description_2017_DEU">Rheinland-Pfalz: Porta Nigra</string>
+    <string name="description_2017_SVK">550th anniversary of the establishment of Academia Istropolitana</string>
+
+    <!-- Commemoratives 2018 -->
+    <string name="description_2018_DEU">Berlin: Schloss Charlottenburg</string>
+
+</resources>

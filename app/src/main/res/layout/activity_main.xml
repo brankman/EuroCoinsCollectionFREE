@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_coins2"
+    tools:context="moedas.euro.free.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_country_coin"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/moedas_euro_logo"
+        android:contentDescription="@string/base"/>
+
+    <Button
+        android:id="@+id/bt_go_countries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt_go_commemorative_years"
+        android:layout_alignRight="@+id/bt_go_commemorative_years"
+        android:layout_below="@+id/iv_country_coin"
+        android:layout_marginTop="55dp"
+        android:text="@string/bt_euro_coins_main"
+        android:theme="@style/MyButton"
+        android:textColor="@color/colorTextView_white"/>
+
+    <Button
+        android:id="@+id/bt_go_commemorative_years"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="@string/bt_euro_coins_commemorative_main"
+        android:layout_below="@+id/bt_go_countries"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/MyButton"
+        android:textColor="@color/colorTextView_white"/>
+
+
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--android:id="@+id/adView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--ads:adSize="BANNER"-->
+        <!--ads:adUnitId="@string/banner_ad_unit_id">-->
+    <!--</com.google.android.gms.ads.AdView>-->
+
+</RelativeLayout>

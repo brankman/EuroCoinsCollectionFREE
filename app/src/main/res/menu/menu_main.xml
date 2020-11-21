@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="moedas.euro.free.MainActivity">
+    <item
+        android:title="@string/base"
+        app:showAsAction="always"
+        android:icon="@drawable/menu_icon"
+        android:enabled="true"
+        android:visible="true"
+        android:id="@+id/menu">
+        <menu>
+            <item android:id="@+id/menu_statistics"
+                android:title="@string/title_menu_statistics"
+                android:icon="@drawable/menu_statistics_icon"
+                android:visible="true"
+                app:showAsAction="always"
+                android:enabled="true" />
+            <item android:id="@+id/menu_settings"
+                android:title="@string/title_menu_settings"
+                android:icon="@drawable/settings_menu_icon"
+                android:visible="true"
+                app:showAsAction="always"
+                android:enabled="true" />
+        </menu>
+    </item>
+</menu>
