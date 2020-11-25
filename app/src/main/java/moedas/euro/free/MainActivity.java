@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     static Database mDataBase;
     //Permission code that will be checked in the method onRequestPermissionsResult
     private int STORAGE_PERMISSION_CODE = 1000;
-    Functions classFunctions = new Functions(getApplicationContext());
+    Functions classFunctions = new Functions(this);
 
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
@@ -67,8 +67,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         /**evento do botao para aceder às moedas comemorativas**/
-        Button bt_comemorative_euro_coins = findViewById(R.id.bt_go_commemorative_years);
-        bt_comemorative_euro_coins.setOnClickListener(new View.OnClickListener() {
+        Button bt_commemorative_euro_coins = findViewById(R.id.bt_go_commemorative_years);
+        bt_commemorative_euro_coins.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), CommemorativeYearsActivity.class);
                 i.putExtra("isBack", false);

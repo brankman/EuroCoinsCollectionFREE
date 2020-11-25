@@ -31,7 +31,7 @@ import java.util.HashSet;
 public class CommemorativeCoinsActivity extends AppCompatActivity {
 
     static Database mDataBase;
-    Functions classFunctions = new Functions(getApplicationContext());
+    Functions classFunctions = new Functions(this);
     HashSet<String> arrayIdChecked = new HashSet<String>();
     HashSet<String> arrayIdunChecked = new HashSet<String>();
     HashSet<String> arrayId = new HashSet<String>();

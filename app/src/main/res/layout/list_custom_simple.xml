@@ -22,22 +22,28 @@
             android:id="@+id/tv_title_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingStart="25dp"
             android:paddingLeft="25dp"
             android:paddingTop="20dp"
+            android:paddingRight="0dp"
             android:text="@string/base"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#ffffffff" />
+            android:textColor="#ffffffff"
+            android:paddingEnd="0dp" />
 
         <TextView
             android:id="@+id/tv_subtitle_stats"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingStart="25dp"
             android:paddingLeft="25dp"
+            android:paddingRight="0dp"
             android:text="@string/base"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textSize="15sp"
             android:textColor="#ffffffff"
-            android:textStyle="italic" />
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:paddingEnd="0dp" />
 
     </LinearLayout>
 

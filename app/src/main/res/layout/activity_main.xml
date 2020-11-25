@@ -30,7 +30,9 @@
         android:layout_marginTop="55dp"
         android:text="@string/bt_euro_coins_main"
         android:theme="@style/MyButton"
-        android:textColor="@color/colorTextView_white"/>
+        android:textColor="@color/colorTextView_white"
+        android:layout_alignStart="@+id/bt_go_commemorative_years"
+        android:layout_alignEnd="@+id/bt_go_commemorative_years" />
 
     <Button
         android:id="@+id/bt_go_commemorative_years"

@@ -33,7 +33,7 @@ import java.util.HashSet;
 public class CountriesCoinsActivity extends AppCompatActivity {
 
     static Database mDataBase;
-    Functions classFunctions = new Functions(getApplicationContext());
+    Functions classFunctions = new Functions(this);
     HashSet<String> arrayIdCoinsChecked = new HashSet<>();
     HashSet<String> arrayIdCoinsUnChecked = new HashSet<>();
     HashSet<String> arrayIdCoins = new HashSet<>();

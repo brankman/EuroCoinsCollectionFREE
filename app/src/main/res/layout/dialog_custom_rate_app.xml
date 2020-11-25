@@ -23,6 +23,7 @@
         android:layout_below="@+id/iv_dialog"
         android:padding="10dp"
         android:text="@string/settings_title_rate_it"
+        android:gravity="center_horizontal"
         android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -34,7 +35,8 @@
         android:layout_centerHorizontal="true"
         android:layout_toRightOf="@+id/iv_icon"
         android:isIndicator="true"
-        android:rating="5" />
+        android:rating="5"
+        android:layout_toEndOf="@+id/iv_icon" />
 
     <Button
         android:id="@+id/bt_dialog_rate_it"
@@ -47,5 +49,6 @@
         android:drawableLeft="@drawable/icon_play_store"
         android:text="@string/app_name"
         android:textColor="@color/colorTextView_white"
-        android:theme="@style/MyButton" />
+        android:theme="@style/MyButton"
+        android:drawableStart="@drawable/icon_play_store" />
 </RelativeLayout>

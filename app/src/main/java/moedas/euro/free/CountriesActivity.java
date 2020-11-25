@@ -24,7 +24,7 @@ import android.widget.TextView;
 public class CountriesActivity extends AppCompatActivity {
 
     static Database mDataBase;
-    Functions classFunctions = new Functions(getApplicationContext());
+    Functions classFunctions = new Functions(this);
     static long selected_index = 0;
     ListView lv;
     static int listView_index = 0;
